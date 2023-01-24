@@ -1,0 +1,235 @@
+
+*{margin:0px; padding:0px}
+
+body {font-family: 'Poppins', sans-serif; 
+background: #fff; }
+
+.ad-screen{background: url(../img/BG-screen.png) no-repeat left top;}
+.logo-ad{display:inline;}
+
+
+
+.ad-logo {text-align:center; margin:100px auto 0px auto; }
+.ad-logo h2{color:#fff; padding:0px; font-size:40px; text-transform:capitalize;}
+.ad-logo span{color:#fff; text-transform: capitalize; font-size: 23px;}
+.login p{font-size:12px; padding:0px 0px 0px 30px; display: inline-block; margin:0px;}
+.ad-submit{float:left; margin: 0px 20px;}
+.ad-submit button{ font-size:16px;  padding: 5px 20px 5px 20px; color: #fff; text-transform:capitalize;}
+
+.ad-reg{float:left; margin: 0px 10px;}
+.ad-reg button{ font-size:16px;    padding: 5px 20px 5px 20px; color: #fff; text-transform:capitalize;}
+
+.login__field {padding: 20px 0px; position: relative; margin:0px auto; width:90%;}
+.zmdi {position: absolute; top:28px; color: #142387; font-size:26px;}
+.login__input { border: none; border-bottom: 1px solid #D1D1D4; background: none; padding: 8px; padding-left:10px; width:100%; transition: .2s; font-size:13px;}
+.text-center{color:#fff;}
+.login__input:active,
+.login__input:focus,
+.login__input:hover { outline: none; border-bottom-color: #142387;}
+.login .button__icon {font-size: 24px; margin-left: auto; color: #7875B5;}
+ 
+/* ====================Responsive========================*/
+
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 800px) {}
+
+@media screen and (max-width: 786px) {
+    .ad-submit, .ad-reg {
+        margin: 0 !important;
+		    width: 100%;
+    }
+	.ad-logo {
+    text-align: center;
+    margin: 20px auto 0px auto;
+}
+.logo-ad img {
+    width: 130px;
+    margin: 20px;
+    text-align: center;
+	float: none;
+}
+.logo-ad {
+    display: inline;
+    text-align: center;
+}
+.btn-primary, .ad-reg button {
+    border-color: #0d6efd;
+    padding: 0.3rem 0.5rem;
+	width: 100%;
+    margin: 0.3rem;
+}
+.login p{
+	padding:5px!important;
+}
+.ad-reg {
+    float: none;
+}
+}
+
+@media screen and (max-width: 480px) {
+    .ad-submit, .ad-reg {
+        margin: 0 !important;
+		width: 100%;
+    }
+	.ad-logo {
+    text-align: center;
+    margin: 20px auto 0px auto;
+}
+.logo-ad img {
+    width: 130px;
+    margin: 20px;
+    text-align: center;
+	float: none;
+}
+.logo-ad {
+    display: inline;
+    text-align: center;
+}
+.btn-primary, .ad-reg button {
+        border-color: #0d6efd;
+    padding: 0.3rem 0;
+    width: 100%;
+    margin: 0.3rem 0;
+}
+.login p{
+	padding:5px!important;
+}
+.ad-reg {
+    float: none;
+}
+}
+
+@media screen and (max-width: 320px) {
+    .ad-submit, .ad-reg {
+        margin: 0 !important;
+		    width: 100%;
+    }
+	
+.login{padding:40px 10px; width:100%;}	
+.ad-reg{margin:inherit;}
+
+.ad-logo {
+    text-align: center;
+    margin: 20px auto 0px auto;
+}
+.logo-ad img {
+    width: 130px;
+    margin: 20px;
+    text-align: center;
+	float: none;
+}
+.logo-ad {
+    display: inline;
+    text-align: center;
+}
+.btn-primary, .ad-reg button {
+    border-color: #0d6efd;
+    padding: 0.3rem 0.5rem;
+	width: 100%;
+    margin: 0.3rem;
+}
+.login p{
+	padding:5px!important;
+}
+.ad-reg {
+    float: none;
+}
+
+}
+
+
+/*================*/
+  .login-left{  float: left;
+    width: 50%;
+    position: absolute;
+    height: 100%;
+    background: linear-gradient(45deg, rgb(36, 35, 72) 0%, rgb(79, 75, 150) 100%);}
+	
+	
+	
+.border-b {
+    width: 100%;
+    float: left;
+    border-bottom: 5px solid rgb(255, 236, 105);
+}
+.logo-ad img {
+    width: 300px;
+    display: table;
+    margin: 147px 0px 20px 90px;
+}
+	
+
+.login-right {
+    float: right;
+    width: 50%;
+    height: auto;
+    background: rgb(255, 255, 255);
+}
+.ad-logo {
+    text-align: center;
+    margin: 184px auto 0px;
+}
+.ad-logo h2 {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    text-transform: capitalize;
+    padding: 0px;
+}
+.ad-logo span {
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-size: 23px;
+    display: block;
+}
+
+.border-r {
+    width: 69%;
+    border-bottom: 5px solid rgb(255, 236, 105);
+}
+.ad-logo h3 {
+    font-size: 13px;
+    padding: 20px 0px 0px;
+}
+.login {
+    width: 85%;
+    padding: 0px 20px;
+    background: rgb(255, 255, 255);
+    margin: 0px auto;
+}
+.login__field {
+    position: relative;
+    width: 70%;
+    padding:8px 0px;
+    margin: 0px auto;
+}
+.login p {
+    font-size: 12px;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+.login span {
+    font-size: 12px;
+    float: right;
+}
+.log-sign1 {
+    font-size: 14px;
+    background-color: rgb(42, 41, 84);
+    padding: 8px 40px;
+    margin: 0px 20px 0px 0px;
+    border-width: initial;
+    border-style: none;
+}
+.log-sign2 {
+    font-size: 14px;
+    color: rgb(42, 41, 84);
+    padding: 8px 40px;
+    margin: 0px 20px 0px 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(42, 41, 84);
+    border-image: initial;
+    background: none;
+}

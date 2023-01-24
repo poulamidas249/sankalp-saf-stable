@@ -1,0 +1,13 @@
+.timer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4px;
+  margin-right: 4px; }
+
+.displayTime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #767676;
+  font-size: 14px; }

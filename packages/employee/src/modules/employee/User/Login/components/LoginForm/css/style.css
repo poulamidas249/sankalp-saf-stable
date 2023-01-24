@@ -1,0 +1,63 @@
+
+*{margin:0px; padding:0px}
+
+body {font-family: 'Poppins', sans-serif; 
+background: #606c88; 
+background: -moz-radial-gradient(center, ellipse cover,  #606c88 0%, #3f4c6b 100%); 
+background: -webkit-radial-gradient(center, ellipse cover,  #606c88 0%,#3f4c6b 100%); 
+background: radial-gradient(ellipse at center,  #606c88 0%,#3f4c6b 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=1 ); }
+
+.ad-screen{background: url(../../../../../../../kmcAssets/img/BG-screen.png) no-repeat left top;}
+.logo-ad{display:inline;}
+.logo-ad img{width:130px; margin:200px 25px 0px 0px; float:right}
+
+.login{border:1px solid #22BAA0; padding:40px 20px; border-radius: 5px; background:#fff; width:85%; margin:0px auto;}
+.ad-logo {text-align:center; margin:100px auto 0px auto; }
+.ad-logo h2{color:#fff; padding:0px; font-size:40px; text-transform:capitalize;}
+.ad-logo span{color:#fff; text-transform: capitalize; font-size: 23px;}
+.login p{font-size:12px; padding:0px 0px 0px 30px; display: inline-block; margin:0px;}
+.ad-submit{float:left; margin: 0px 20px;}
+.ad-submit button{ font-size:16px;   border-radius: 40px; padding: 5px 20px 5px 20px; color: #fff; text-transform:capitalize;}
+
+.ad-reg{float:right; margin: 0px 20px;}
+.ad-reg button{ font-size:16px;   border-radius: 40px; padding: 5px 20px 5px 20px; color: #fff; text-transform:capitalize;}
+
+.login__field {padding: 20px 0px; position: relative; margin:0px auto; width:90%;}
+.zmdi {position: absolute; top:28px; color: #142387; font-size:26px;}
+.login__input { border: none; border-bottom: 1px solid #D1D1D4; background: none; padding: 8px; padding-left: 30px; width:100%; transition: .2s; font-size:15px;}
+.text-center{color:#fff;}
+.login__input:active,
+.login__input:focus,
+.login__input:hover { outline: none; border-bottom-color: #142387;}
+.login .button__icon {font-size: 24px; margin-left: auto; color: #7875B5;}
+ 
+/* ====================Responsive========================*/
+
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 800px) {}
+
+@media screen and (max-width: 786px) {
+    .ad-submit, .ad-reg {
+        margin: 0 !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .ad-submit, .ad-reg {
+        margin: 0 !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .ad-submit, .ad-reg {
+        margin: 0 !important;
+    }
+	
+.login{padding:40px 10px; width:100%;}	
+.ad-reg{margin:inherit;}
+.logo-ad img{margin:20px auto; float:none; display:table; }	
+.ad-logo{margin: 12px auto 0px auto;}
+}

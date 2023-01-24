@@ -1,0 +1,200 @@
+import {
+  getCommonSubHeader,
+  getCommonContainer,
+  getCommonGrayCard,
+  getLabelWithValue,
+  getLabel,
+} from "egov-ui-framework/ui-config/screens/specs/utils";
+
+import { changeStep } from "./applyResource/fsBillFooter";
+
+export const submitApplication = async (state, dispatch) => {};
+
+// export const backApplication = async (state, dispatch) => {
+//   dispatch(setRoute(`../pt-hearing/fsBill`));
+// };
+
+const fsBillDecideSummary = getCommonGrayCard({
+  fsBillEntryContainer: getCommonContainer({
+    deceidedDetail: getCommonSubHeader({
+      labelName: "Decided/EX-Parte",
+      labelKey: "Decided/EX-Parte",
+      gridDefination: {
+        xs: 12,
+        sm: 12,
+      },
+      props: {
+        style: { marginBottom: "10px" },
+      },
+    }),
+    // editSection: {
+    //   componentPath: "Button",
+    //   props: {
+    //     color: "primary",
+    //   },
+    //   gridDefination: {
+    //     xs: 12,
+    //     sm: 2,
+    //     align: "right",
+    //   },
+    //   visible: true,
+    //   children: {
+    //     editIcon: {
+    //       uiFramework: "custom-atoms",
+    //       componentPath: "Icon",
+    //       props: {
+    //         iconName: "edit",
+    //       },
+    //     },
+    //     buttonLabel: getLabel({
+    //       labelName: "Edit",
+    //       labelKey: "Edit",
+    //     }),
+    //   },
+    //   onClickDefination: {
+    //     action: "condition",
+    //     callBack: (state, dispatch) => {
+    //       changeStep(state, dispatch, "", 2);
+    //     },
+    //   },
+    // },
+  }),
+
+  deceidedDetailContainer: getCommonContainer({
+    decidedav: getLabelWithValue(
+      {
+        labelName: "AV",
+        labelKey: "AV",
+        value: "AV",
+        gridDefination: {
+          xs: 12,
+          sm: 3,
+        },
+      },
+      {
+        jsonPath: "fsBill.decidedav",
+      }
+    ),
+
+    decidedcommAV: getLabelWithValue(
+      {
+        labelName: "Comm AV",
+        labelKey: "Comm AV",
+        gridDefination: {
+          xs: 12,
+          sm: 3,
+        },
+      },
+      {
+        jsonPath: "fsBill.decidedcommAV",
+      }
+    ),
+
+    decidedqtrlyTax: getLabelWithValue(
+      {
+        labelName: "Qtrly Tax(Including HBT)",
+        labelKey: "Qtrly Tax(Including HBT)",
+        gridDefination: {
+          xs: 12,
+          sm: 3,
+        },
+      },
+      {
+        jsonPath: "fsBill.decidedqtrlyTax",
+      }
+    ),
+
+    decidednormalRate: getLabelWithValue(
+      {
+        labelName: "Normal Rate",
+        labelKey: "Normal Rate",
+        value: "Normal Rate",
+        gridDefination: {
+          xs: 12,
+          sm: 3,
+        },
+      },
+      {
+        jsonPath: "fsBill.decidednormalRate",
+      }
+    ),
+
+    deceidedcommRate: getLabelWithValue(
+      {
+        labelName: "Comm Rate",
+        labelKey: "Comm Rate",
+        value: "Comm Rate",
+        gridDefination: {
+          xs: 12,
+          sm: 3,
+        },
+      },
+      {
+        jsonPath: "fsBill.decidedcommRate",
+
+        //  jsonPath: "fsBill.deceidedcommRate",
+      }
+    ),
+
+    deceidedpayableAmount: getLabelWithValue(
+      {
+        labelName: "Payable Amount",
+        labelKey: "Payable Amount",
+        value: "Payable Amount",
+        gridDefination: {
+          xs: 12,
+          sm: 3,
+        },
+      },
+      {
+        jsonPath: "fsBill.decidedpayableAmount",
+      }
+    ),
+
+    decidedcommRate: getLabelWithValue(
+      {
+        labelName: "Quarter Amount",
+        labelKey: "Quarter Amount",
+        value: "Quarter Amount",
+        gridDefination: {
+          xs: 12,
+          sm: 3,
+        },
+      },
+      {
+        jsonPath: "fsBill.decidedcommRate",
+      }
+    ),
+
+    decidedquarterAmount: getLabelWithValue(
+      {
+        labelName: "Quarter Amount",
+        labelKey: "Quarter Amount",
+        value: "Quarter Amount",
+        gridDefination: {
+          xs: 12,
+          sm: 3,
+        },
+      },
+      {
+        jsonPath: "fsBill.decidedquarterAmount",
+      }
+    ),
+
+    decidedsurchargeAmount: getLabelWithValue(
+      {
+        labelName: "Surcharge Amount",
+        labelKey: "Surcharge Amount",
+        value: "Surcharge Amount",
+        gridDefination: {
+          xs: 12,
+          sm: 3,
+        },
+      },
+      {
+        jsonPath: "fsBill.decidedsurchargeAmount",
+      }
+    ),
+  }),
+});
+export default fsBillDecideSummary;

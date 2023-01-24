@@ -1,0 +1,8 @@
+{
+    "name": "egov-grievance",
+    "version": "1.0.0",
+    "license": "egov",
+    "private": true,
+    "main": "lib/",
+    "dependencies": {}
+}

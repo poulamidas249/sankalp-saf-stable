@@ -1,0 +1,10 @@
+.dropdown {
+  box-sizing: border-box; }
+
+div#menu- > div[role="document"] {
+  overflow-y: scroll;
+  max-height: 40% !important; }
+  div#menu- > div[role="document"] ul li {
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    height: auto; }
